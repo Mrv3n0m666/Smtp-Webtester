@@ -112,4 +112,4 @@ We welcome contributions to improve SMTP Tester! Follow these steps to contribut
 MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
-For questions or suggestions, open an issue or contact [Your Name](mailto:your.email@example.com).
+For questions or suggestions, open an issue or contact [Mrv3n0mm](mailto:testceklow123@hotmail.com).

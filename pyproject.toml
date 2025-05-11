@@ -8,13 +8,18 @@ version = "0.1.0"
 authors = [
   { name = "Mrv3n0m666" },
 ]
-description = "A Flask-based SMTP server testing tool"
+description = "A Flask-based web application for testing SMTP server connections and sending test emails"
 readme = "README.md"
 requires-python = ">=3.6"
+license = { text = "MIT License" }
+keywords = ["smtp", "email", "testing", "flask", "webapp", "open-source"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Testing",
 ]
 dependencies = [
   "Flask>=3.0.3",
@@ -24,6 +29,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Mrv3n0m666/test-Webtester"
-Repository = "https://github.com/Mrv3n0m666/test-Webtester"
-Issues = "https://github.com/Mrv3n0m666/test-Webtester/issues"
+Homepage = "https://github.com/Mrv3n0m666/Smtp-Webtester"
+Repository = "https://github.com/Mrv3n0m666/Smtp-Webtester"
+Issues = "https://github.com/Mrv3n0m666/Smtp-Webtester/issues"
+Documentation = "https://github.com/Mrv3n0m666/Smtp-Webtester#readme"

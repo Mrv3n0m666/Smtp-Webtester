@@ -1,18 +1,25 @@
 # SMTP Tester
 
-A Flask-based web application to test SMTP server connections and send test emails. This tool is designed to help developers and system administrators verify SMTP server configurations with a user-friendly interface and chat support.
+![PyPI](https://img.shields.io/pypi/v/smtp-tester?color=blue)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Mrv3n0m666/Smtp-Webtester/publish.yml?branch=main)
+![License](https://img.shields.io/github/license/Mrv3n0m666/Smtp-Webtester)
+
+A Flask-based web application to test SMTP server connections and send test emails. This tool is designed to help developers and system administrators verify SMTP server configurations with a user-friendly interface and AI-powered chat support.
 
 ## Overview
 
-SMTP Tester allows you to:
-- Test SMTP server connectivity with various security options (None, SSL, TLS, Auto).
-- Send test emails to verify sender and recipient addresses.
-- Interact with a chat feature for real-time assistance.
-- Validate email addresses before sending.
+SMTP Tester provides:
+- Testing of SMTP server connectivity with security options (None, SSL, TLS, Auto).
+- Sending test emails to verify sender and recipient addresses.
+- Real-time chat assistance powered by OpenAI.
+- Email address validation before sending.
 - Secure form submissions with CSRF protection.
-- Configure sensitive settings via `.env` file.
+- Configuration of sensitive settings via `.env` file.
 
 This project is open-source under the MIT License and welcomes contributions from the community.
+
+## Demo
+SMTP Tester features a sleek, dark-themed interface with a form to input SMTP details and a live chat for troubleshooting. Run it locally to see it in action, or check the [Issues](https://github.com/Mrv3n0m666/Smtp-Webtester/issues) page for planned UI enhancements!
 
 ## Installation and Usage
 
@@ -24,8 +31,8 @@ This project is open-source under the MIT License and welcomes contributions fro
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mrv3n0m666/smtp-Webtester.git
-   cd smtp-tester
+   git clone https://github.com/Mrv3n0m666/Smtp-Webtester.git
+   cd Smtp-Webtester
    ```
 2. Install dependencies:
    ```bash
@@ -56,60 +63,29 @@ This project is open-source under the MIT License and welcomes contributions fro
 
 ### Notes
 - Ensure your SMTP server supports the selected security protocol.
-- Email addresses are validated before sending to prevent errors.
+- Email addresses are validated to prevent errors.
 - The form is protected against CSRF attacks.
-- For production use, configure a secure environment and remove debug mode (`debug=True`).
+- For production, configure a secure environment and disable debug mode (`debug=True`).
+
+## Roadmap
+We aim to make SMTP Tester more robust and feature-rich. Planned features include:
+- Support for multiple recipients in a single test.
+- Test history stored in a local database.
+- Integration with alternative AI chat providers (e.g., xAI Grok).
+- Automated tests with pytest.
+- Deployment guides for platforms like Heroku or Docker.
+
+Have an idea? Open an issue to discuss!
 
 ## Contributing
-
-We welcome contributions to improve SMTP Tester! Follow these steps to contribute:
-
-1. **Fork the Repository**:
-   - Click the "Fork" button on the [GitHub repository](https://github.com/Mrv3n0m666/smtp-Webtester).
-
-2. **Clone Your Fork**:
-   ```bash
-   git clone https://github.com/Mrv3n0m666/smtp-Webtester.git
-   cd smtp-tester
-   ```
-
-3. **Create a Branch**:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-4. **Make Changes**:
-   - Implement your feature or bug fix.
-   - Ensure code follows PEP 8 style guidelines.
-   - Update documentation if necessary (e.g., README.md).
-
-5. **Test Your Changes**:
-   - Run the application locally to verify functionality.
-   - Add tests if applicable (future test suite planned).
-
-6. **Commit Changes**:
-   ```bash
-   git commit -m "Add your descriptive commit message"
-   ```
-
-7. **Push to Your Fork**:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-8. **Open a Pull Request**:
-   - Go to the [original repository](https://github.com/Mrv3n0m666/smtp-Webtester).
-   - Click "New Pull Request" and select your branch.
-   - Provide a clear description of your changes and reference any related issues.
-
-### Contribution Guidelines
-- **Code Style**: Follow PEP 8 for Python and use consistent HTML/CSS formatting.
-- **Issues**: Check the [Issues](https://github.com/Mrv3n0m666/smtp-Webtester/issues) page for tasks or report new bugs/features.
-- **Scope**: For major changes, open an issue first to discuss with maintainers.
-- **License**: By contributing, you agree that your contributions will be licensed under the MIT License.
+We love contributions! Whether you're fixing bugs, adding features, or improving docs, your help is welcome. See our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on how to get started. Check the [Issues](https://github.com/Mrv3n0m666/Smtp-Webtester/issues) page for tasks labeled `good first issue` or `help wanted`.
 
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
 
+## Acknowledgements
+- Thanks to the Flask and OpenAI communities for their amazing tools.
+- Shoutout to future contributors for helping improve SMTP Tester!
+
 ## Contact
-For questions or suggestions, open an issue or contact [Mrv3n0mm](mailto:testceklow123@hotmail.com).
+For questions, suggestions, or bug reports, please [open an issue](https://github.com/Mrv3n0m666/Smtp-Webtester/issues) or contact [Mrv3n0m666](mailto:mrv3n0m666@example.com).

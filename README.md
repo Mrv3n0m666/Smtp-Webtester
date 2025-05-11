@@ -1,6 +1,6 @@
 # SMTP Tester
 
-![PyPI](https://img.shields.io/pypi/v/smtp-tester?color=blue)
+![PyPI](https://img.shields.io/pypi/v/smtp-Webtester?color=blue)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Mrv3n0m666/Smtp-Webtester/publish.yml?branch=main)
 ![License](https://img.shields.io/github/license/Mrv3n0m666/Smtp-Webtester)
 

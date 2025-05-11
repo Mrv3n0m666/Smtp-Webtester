@@ -2,7 +2,7 @@
 
 ![PyPI](https://img.shields.io/pypi/v/smtp-Webtester?color=blue)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Mrv3n0m666/Smtp-Webtester/publish.yml?branch=main)
-![License](https://img.shields.io/github/license/Mrv3n0m666/Smtp-Webtester)
+![License](https://img.shields.io/github.com/Mrv3n0m666/Smtp-Webtester/blob/main/LICENSE)
 
 A Flask-based web application to test SMTP server connections and send test emails. This tool is designed to help developers and system administrators verify SMTP server configurations with a user-friendly interface and AI-powered chat support.
 

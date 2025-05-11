@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smtp-tester"
+version = "0.1.0"
+authors = [
+  { name = "Mrv3n0m666" },
+]
+description = "A Flask-based SMTP server testing tool"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "Flask>=3.0.3",
+  "python-dotenv>=1.0.1",
+  "email-validator>=2.2.0",
+  "Flask-WTF>=1.2.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/Mrv3n0m666/test-Webtester"
+Repository = "https://github.com/Mrv3n0m666/test-Webtester"
+Issues = "https://github.com/Mrv3n0m666/test-Webtester/issues"
